@@ -11,7 +11,7 @@ nohup python3 pyflux_daemon.py &
 To stop the script, first find the Process ID (PID):
 
 ```bash
-ps aux | grep pyflux_daemon.py
+ps aux | grep "[p]yflux_daemon.py"
 ```
 
 Then, kill the process:
